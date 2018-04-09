@@ -1,0 +1,5 @@
+jupyter
+ipywidgets
+tqdm
+pandas
+numpy
