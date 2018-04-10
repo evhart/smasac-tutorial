@@ -1,5 +1,5 @@
 # Social Media Analysis for Situation Awareness during Crises (SMASAC) Tutorial
-
+![SMASAC](header.png "SMASAC")
 
 
 Recent disasters and crises (such as Hurricanes Irma, Harvey and Maria) have affected many regions of the globe, causing damage in the billions of dollars and hundreds of lives. Communication technologies, such as social media, can play an important role in preventing some of this damage by helping first responders and humanitarian organizations mobilize resources effectively. Social media has emerged as a powerful tool for the crisis informatics community because it serves as a field-level, rich source of real-time information that would otherwise not be available.
@@ -28,7 +28,8 @@ There is four different methods for runing and studying the notebooks:
     * Docker build or DockerHub (see below)
     * Native installation
 
-<!-- ### Notebooks -->
+## Notebooks
+* Notebooks Part 1: Data Collection: [ipynb](notebooks/1-data-collection.ipynb) / [jupyter](http://127.0.0.1:8888/notebooks/1-data-collection.ipynb)
 
 ## Running and Installing the Notebooks
 You can either run the tutorial using docker or installing all the required software manually. It is recommanded to use docker.

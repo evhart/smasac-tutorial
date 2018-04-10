@@ -3,3 +3,4 @@ ipywidgets
 tqdm
 pandas
 numpy
+tweepy
