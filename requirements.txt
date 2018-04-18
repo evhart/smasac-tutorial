@@ -7,6 +7,9 @@ tweepy
 scikit-learn
 scipy
 matplotlib
+python-dotenv
+geopandas
+folium
 
 # fastText Python API
 git+git://github.com/facebookresearch/fastText.git
