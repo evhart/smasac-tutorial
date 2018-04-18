@@ -10,12 +10,12 @@ We will present a situation-awareness data analysis pipeline that focuses on som
 
 
 ## Agenda and Slides
-* Slides Part 1: Introduction
-* Slides Part 2: Crisis Data Collection
-* Slides Part 3: Concepts and Entities Extraction
-* Slides Part 4: Classification and Categorisation
-* Slides Part 5: Event Extraction
-* Slides Part 6: Visualisation
+* Slides Part 1: Introduction: [pptx](slides/pptx/1-introduction.pptx)
+* Slides Part 2: Crisis Data Collection and Filtering: [pptx](slides/pptx/2-data-collection.pptx)
+* Slides Part 3: Concepts and Entities Extraction: [pptx](slides/pptx/3-entity-extraction.pptx)
+* Slides Part 4: Classification and Categorisation: [pptx](slides/pptx/4-classification.pptx)
+* Slides Part 5: Event Extraction: [pptx](slides/pptx/5-event-extraction.pptx)
+* Slides Part 6: Visualisation: [pptx](slides/pptx/6-visualisation.pptx)
 
 
 ## Source Code and Notebooks
