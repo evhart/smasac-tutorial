@@ -1,0 +1,15 @@
+# Python 3 requirements:
+jupyter
+ipython
+ipywidgets
+ipykernel 
+tqdm
+pandas
+numpy
+tweepy
+scikit-learn
+scipy
+matplotlib
+python-dotenv
+geopandas
+folium

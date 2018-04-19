@@ -125,3 +125,9 @@ pyenv
 Vagrantfile
 
 
+slides/pptx/~$1-introduction.pptx
+slides/pptx/~$6-visualisation.pptx
+slides/pptx/~$5-event-extraction.pptx
+slides/pptx/~$4-classification.pptx
+slides/pptx/~$3-entity-extraction.pptx
+api.env
