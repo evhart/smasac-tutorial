@@ -9,3 +9,4 @@ numpy
 scipy
 sklearn
 matplotlib
+spacy
