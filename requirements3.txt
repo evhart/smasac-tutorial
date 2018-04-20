@@ -1,4 +1,6 @@
 # Python 3 requirements:
+git+https://github.com/facebookresearch/fastText.git@master#egg=fastText
+git+https://github.com/guyao/mpld3.git@master#egg=mpld3
 jupyter
 ipython
 ipywidgets
@@ -13,3 +15,4 @@ matplotlib
 python-dotenv
 geopandas
 folium
+spacy
