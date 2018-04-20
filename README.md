@@ -10,18 +10,28 @@ We will present a situation-awareness data analysis pipeline that focuses on som
 
 
 ## Agenda and Slides
-* Slides Part 1: Introduction: [pptx](slides/pptx/1-introduction.pptx)
-* Slides Part 2: Crisis Data Collection and Filtering: [pptx](slides/pptx/2-data-collection.pptx)
-* Slides Part 3: Concepts and Entities Extraction: [pptx](slides/pptx/3-entity-extraction.pptx)
-* Slides Part 4: Classification and Categorisation: [pptx](slides/pptx/4-classification.pptx)
-* Slides Part 5: Event Extraction: [pptx](slides/pptx/5-event-extraction.pptx)
-* Slides Part 6: Visualisation: [pptx](slides/pptx/6-visualisation.pptx)
+* Slides Part 1: Introduction: [pptx](slides/pptx/1-introduction.pptx) / [pdf](slides/pdf/1-introduction.pdf)
+* Slides Part 2: Crisis Data Collection and Filtering: [pptx](slides/pptx/2-data-collection.pptx) / [pdf](slides/pdf/2-data-collection.pdf)
+* Slides Part 3: Concepts and Entities Extraction: [pptx](slides/pptx/3-entity-extraction.pptx) / [pdf](slides/pdf/3-entity-extraction.pdf)
+* Slides Part 4: Classification and Categorisation: [pptx](slides/pptx/4-classification.pptx) / [pdf](slides/pdf/4-classification.pdf)
+* Slides Part 5: Event Extraction: [pptx](slides/pptx/5-event-extraction.pptx) / [pdf](slides/pdf/5-event-extraction.pdf)
+* Slides Part 6: Visualisation: [pptx](slides/pptx/6-visualisation.pptx) / [pdf](slides/pdf/6-visualisation.pdf)
+
+## References
+The references of the important papers used in the slides and relevant to the tutorial are available as separate bib files (and as markdown for each presentation):
+* References Part 1: Introduction: [bib](references/bib/1-introduction.bib) / [md](references/md/1-introduction.md)
+* References Part 2: Crisis Data Collection and Filtering: [bib](references/bib/2-data-collection.bib) / [md](references/md/2-data-collection.md)
+* References Part 3: Concepts and Entities Extraction: [bib](references/bib/3-entity-extraction.bib) / [md](references/md/3-entity-extraction.md)
+* References Part 4: Classification and Categorisation: [bib](references/bib/4-classification.bib) / [md](references/md/4-classification.md)
+* References Part 5: Event Extraction: [bib](references/bib/5-event-extraction.bib) / [md](references/md/5-event-extraction.md)
+* References Part 6: Visualisation: [bib](references/bib/6-visualisation.bib) / [md](references/md/6-visualisation.md)
+
 
 
 ## Source Code and Notebooks
 The tutorial hands-on sessions are mostly coded in Python and provided as Jupyter notebooks. The notebooks can be locally installed or visualsised online.
 
-There is four different methods for runing and studying the notebooks:
+There is different methods for runing and studying the notebooks:
 1. Interactive notebook environment on mybinder
 2. Rendered HTML notebooks on nbviewer (non-interactive)
 3. Interactive local notebook environment:
