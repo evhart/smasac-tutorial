@@ -132,3 +132,5 @@ slides/pptx/~$4-classification.pptx
 slides/pptx/~$3-entity-extraction.pptx
 api.env
 slides/pptx/~$2-data-collection.pptx
+smasac-env/
+data/3-entity-extraction/model/twitter.bin
