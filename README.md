@@ -1,6 +1,7 @@
 # Social Media Analysis for Situation Awareness during Crises (SMASAC) Tutorial
 ![SMASAC](header.png "SMASAC")
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/evhart/smasac-tutorial/master)
 
 Recent disasters and crises (such as Hurricanes Irma, Harvey and Maria) have affected many regions of the globe, causing damage in the billions of dollars and hundreds of lives. Communication technologies, such as social media, can play an important role in preventing some of this damage by helping first responders and humanitarian organizations mobilize resources effectively. Social media has emerged as a powerful tool for the crisis informatics community because it serves as a field-level, rich source of real-time information that would otherwise not be available.
 
@@ -43,7 +44,7 @@ There is different methods for runing and studying the notebooks:
     * Native installation
 
 ## Notebooks
-* Notebooks: Data Collection: [ipynb](notebooks/1-data-collection.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/evhart/smasac-tutorial/blob/master/notebooks/1-data-collection.ipynb) / [jupyter](http://127.0.0.1:8888/notebooks/1-data-collection.ipynb)
+* Notebooks: Data Collection: [ipynb](notebooks/2-data-collection.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/evhart/smasac-tutorial/blob/master/notebooks/2-data-collection.ipynb) / [jupyter](http://127.0.0.1:8888/notebooks/2-data-collection.ipynb)
 * Notebooks: Entity Extraction: 
     * fastText Embeddings: [ipynb](notebooks/3-1-entity-extraction-fasttext-embedding.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/evhart/smasac-tutorial/blob/master/notebooks/3-1-entity-extraction-fasttext-embedding.ipynb) / [jupyter](http://127.0.0.1:8888/notebooks/3-1-entity-extraction-fasttext-embedding.ipynb)
     * Hashtag Visualisation: [ipynb](notebooks/3-2-entity-extraction-hashtag-visualization.ipynb) / [nbviewer](http://nbviewer.jupyter.org/github/evhart/smasac-tutorial/blob/master/notebooks/3-2-entity-extraction-hashtag-visualization.ipynb) / [jupyter](http://127.0.0.1:8888/notebooks/3-2-entity-extraction-hashtag-visualization.ipynb)
