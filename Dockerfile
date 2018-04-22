@@ -10,7 +10,9 @@ WORKDIR /home
 RUN echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
 # There is a bug with pandas and pip 10, we use v9.0.3 instead.
-RUN apk add --no-cache git python3 python3-dev py3-numpy py3-numpy-f2py py3-scipy py-numpy-dev gfortran gcc build-base wget freetype-dev libpng-dev openblas-dev cython cython-dev geos@testing geos-dev@testing gdal@testing gdal-dev@testing && \
+RUN apk add --no-cache git python3 python3-dev py3-numpy py3-numpy-f2py py3-scipy py-numpy-dev gfortran gcc build-base wget \
+    freetype-dev libpng-dev openblas-dev cython cython-dev geos@testing geos-dev@testing gdal@testing gdal-dev@testing \ 
+    jpeg-dev zlib-dev freetype-dev lcms2-dev openjpeg-dev tiff-dev tk-dev tcl-dev harfbuzz-dev fribidi-dev && \
     python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \
     python3 -m pip install --upgrade pip==9.0.3 setuptools && \
