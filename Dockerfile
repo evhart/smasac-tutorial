@@ -1,9 +1,22 @@
 #
-# Dockerfile for the SMASEC Tutorial
+# Dockerfile for the SMASAC Tutorial
 #
 FROM alpine:edge
 LABEL maintener="Gregoire Burel <evhart@users.noreply.github.com>"
-WORKDIR /home
+
+
+# Set user environment:
+ENV NB_USER smasac
+ENV NB_UID 1000
+ENV HOME /home/${NB_USER}
+
+# Add user:
+RUN adduser -D \
+    -g "Default user" \
+    -u ${NB_UID} \
+    ${NB_USER}
+
+WORKDIR $home
 
 # Install Python 3 and Pip
 # See https://github.com/frol/docker-alpine-python3/blob/master/Dockerfile
@@ -40,9 +53,13 @@ COPY README.md /home/README.md
 COPY LICENSE /home/LICENSE
 COPY header.png /home/header.png
 
+# Change user:
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
+
 # Start Jupyter
 EXPOSE 8888
-ENTRYPOINT ["jupyter", "notebook", "--ip=*", "--allow-root", "--no-browser"]
+CMD ["jupyter", "notebook", "--ip=*", "--allow-root", "--no-browser"]
 
 
 # The Jupyter server can be started by starting the container using the following command:
