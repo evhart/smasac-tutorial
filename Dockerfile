@@ -30,11 +30,10 @@ RUN apk add --no-cache git python3 python3-dev py3-numpy py3-numpy-f2py py3-scip
     rm -r /usr/lib/python*/ensurepip && \
     python3 -m pip install --upgrade pip==9.0.3 setuptools && \
     ln -sf pip3 /usr/bin/pip && \
-    ln -sf python3 /usr/bin/python && \
-    rm -r /root/.cache
+    ln -sf python3 /usr/bin/python 
 
 # Install the requirements:
-COPY requirements.txt /home/requirements.txt
+COPY requirements.txt /home/smasac/requirements.txt
 RUN python3 -m pip install --no-cache -r requirements.txt
 
 # Add widgets support to Jupyter:
@@ -45,13 +44,13 @@ RUN python3 -m spacy download en && \
     python3 -m spacy download en_core_web_sm
 
 # Copy all the data:
-COPY notebooks/ /home/notebooks
-COPY slides/ /home/slides
-COPY references/ /home/references
-COPY data/ /home/data
-COPY README.md /home/README.md
-COPY LICENSE /home/LICENSE
-COPY header.png /home/header.png
+COPY notebooks/ /home/smasac/notebooks
+COPY slides/ /home/smasac/slides
+COPY references/ /home/smasac/references
+COPY data/ /home/smasac/data
+COPY README.md /home/smasac/README.md
+COPY LICENSE /home/smasac/LICENSE
+COPY header.png /home/smasac/header.png
 
 # Change user:
 RUN chown -R ${NB_UID} ${HOME}
