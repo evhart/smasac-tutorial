@@ -59,7 +59,7 @@ You can either run the tutorial using docker or installing all the required soft
 ## Installation
 You can either install the notebooks and the code using [docker](https://docker.com/) or run the code natively.
 
-### Docker Installation (Recomended)
+### Docker Installation (Recommended)
 The [docker](https://docker.com/) installation is the recommended approach as it is more likely to work without any configuration issues.
 
 #### Pull or Build Image
