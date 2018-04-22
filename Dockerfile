@@ -16,7 +16,7 @@ RUN adduser -D \
     -u ${NB_UID} \
     ${NB_USER}
 
-WORKDIR $home
+WORKDIR /home/smasac
 
 # Install Python 3 and Pip
 # See https://github.com/frol/docker-alpine-python3/blob/master/Dockerfile
